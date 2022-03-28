@@ -1,10 +1,10 @@
 public class CountArray {
   /** Main method */
   public static void main(String[] args) {
-    // Declare and create an array
+    //Create an array
     char[] chars = createArray();
 
-    // Display the array
+    //Show the array
     System.out.println("The lowercase letters are:");
     displayArray(chars);
 
@@ -23,7 +23,7 @@ public class CountArray {
 	        return (char) (ch1 + Math.random() * (ch2 - ch1 + 1));
 	    }
 
-	    //Generate a random lowercase letter
+	    //Generating random lowercase letter
 
 	    public static char getRandomLowerCaseLetter() {
 
@@ -34,7 +34,7 @@ public class CountArray {
   
   
 
-  /** Create an array of characters */
+  /** Declare an array of characters */
   public static char[] createArray() {
     // Declare an array of characters and create it
     char[] chars = new char[100];
